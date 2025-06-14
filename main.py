@@ -95,6 +95,9 @@ async def rag_api(query: QueryRequest):
         "answer": answer,
         "links": links
     }
+@app.get("/")
+def root():
+    return {"message": "TDS Virtual TA is up and running"}
 
 # Run locally
 if __name__ == "__main__":
