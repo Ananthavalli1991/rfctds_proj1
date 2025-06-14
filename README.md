@@ -14,7 +14,7 @@ This API answers student questions using course content and Discourse posts, and
 ## 📦 Features
 
 - 📚 Answers based on:
-  - TDS Jan 2025 course content (as of Apr 15, 2025)
+  - TDS Jan 2025 course content 
   - TDS Discourse posts (Jan 1 – Apr 14, 2025)
 - 🔍 Semantic search using FAISS
 - 📷 Image OCR from base64 screenshots (e.g., GA questions)
